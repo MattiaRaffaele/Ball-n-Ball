@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 3199755039258253651}
-  durataSpawn: 5
+  durataSpawn: 10
 --- !u!95 &5030261820448145738
 Animator:
   serializedVersion: 4

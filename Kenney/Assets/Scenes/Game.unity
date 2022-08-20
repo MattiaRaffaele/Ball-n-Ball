@@ -130530,6 +130530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04961e2c007d8ad4a8929d946f11c06a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeText: {fileID: 854540469}
 --- !u!1001 &624009111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130931,8 +130932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -175.1294, y: 900}
-  m_SizeDelta: {x: 649.7412, y: 50}
+  m_AnchoredPosition: {x: 7.218, y: 900}
+  m_SizeDelta: {x: 1014.436, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854540469
 MonoBehaviour:
@@ -130954,10 +130955,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time: '
+  m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 29bad8acdfb46dd4790433a69dce378e, type: 2}
-  m_sharedMaterial: {fileID: -3815217515514325198, guid: 29bad8acdfb46dd4790433a69dce378e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 857ca387c1d25e746a6810eb616cf276, type: 2}
+  m_sharedMaterial: {fileID: 2856129683395684518, guid: 857ca387c1d25e746a6810eb616cf276, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -130981,17 +130982,17 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 500
+  m_fontSizeBase: 500
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -15
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

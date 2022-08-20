@@ -11,10 +11,24 @@ public class TimeManager : MonoBehaviour
 
     int timerInt;
 
+    bool execute = true;
+
+
     private void Update()
     {
         timeText.text = timerInt.ToString();
 
-        timerInt += Time.deltaTime;
+
+        if (execute == true) StartCoroutine(deelay());
+
+        IEnumerator deelay()
+        {
+            execute = false;
+
+            timerInt++;
+            yield return new WaitForSeconds(1);
+
+            execute = true;
+        }
     }
 }
