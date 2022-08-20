@@ -37,7 +37,10 @@ public class playerScript : MonoBehaviour
 
     public void ScaleDown()
     {
-        gameObject.transform.localScale -= new Vector3(1, 1, 1) * 100 * Time.deltaTime;
+        if (gameObject.transform.localScale.x >= 0)
+        {
+            gameObject.transform.localScale -= new Vector3(1, 1, 1) * 100 * Time.deltaTime;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

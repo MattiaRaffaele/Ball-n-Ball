@@ -125,6 +125,8 @@ GameObject:
   - component: {fileID: 5030261820448145738}
   - component: {fileID: 8344345836040864944}
   - component: {fileID: 791906478495416640}
+  - component: {fileID: 4295970172802441340}
+  - component: {fileID: 4684845052706673449}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: BadGuy
@@ -260,5 +262,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac6347bdc39358246aa5cda6aaeb13d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4295970172802441340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3199755039258253651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559cd71257ec90b4db09e5bd3e2a66fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4684845052706673449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3199755039258253651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f13088a2c04f44aafdd9ab661c1af8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
