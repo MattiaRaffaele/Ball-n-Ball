@@ -9,6 +9,9 @@ public class ballSpawner : MonoBehaviour {
 
     public GameObject Ball;
 
+    [Range(0, 20)]
+    public float spawnPossibility;
+
 
     private void Update() 
     {
@@ -33,7 +36,7 @@ public class ballSpawner : MonoBehaviour {
         StartCoroutine(spawnDeelay());
         IEnumerator spawnDeelay()
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(spawnPossibility);
             canSpawn = true;
         }
     }

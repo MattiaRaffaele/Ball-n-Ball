@@ -7,13 +7,17 @@ public class ballManager : MonoBehaviour
 
     public GameObject Player;
 
+    [Range(0, 10)]
+    public int durataSpawn;
+
+
     private void Start()
     {
         StartCoroutine(Deadline());
     }
     IEnumerator Deadline(){
 
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(durataSpawn);
         Destroy(gameObject);
     }
 

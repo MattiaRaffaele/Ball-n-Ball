@@ -15,9 +15,10 @@ public class CameraZoom : MonoBehaviour
         {
             cameraAnim.Play("cameraAnimation_go");
         }
-        else (Player.transform.localScale.x <= 9)
+
+        else if (Player.transform.localScale.x <= 9)
         {
-            cameraAnim.Play("cameraAnimation_return");
+            cameraAnim.Play("cameraAnim_return");
         }
     }
 }
