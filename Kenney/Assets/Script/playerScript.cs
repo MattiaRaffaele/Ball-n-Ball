@@ -6,6 +6,7 @@ public class playerScript : MonoBehaviour
 {
 
     private bool canScale;
+    public GameObject Camera;
 
 
 
@@ -31,5 +32,23 @@ public class playerScript : MonoBehaviour
     public void Death()
     {
         Destroy(gameObject);
+        Camera.GetComponent<CameraZoom>().enabled = false;
+    }
+
+    public void ScaleDown()
+    {
+        gameObject.transform.localScale -= new Vector3(1, 1, 1) * 100 * Time.deltaTime;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "BadGuy")
+        {
+            Death();
+        }
+        else if (collision.gameObject.tag == "GoodGuy")
+        {
+            ScaleDown();
+        }
     }
 }
