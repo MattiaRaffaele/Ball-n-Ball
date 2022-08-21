@@ -5,28 +5,18 @@ using UnityEngine;
 public class playerScript : MonoBehaviour
 {
 
-    private bool canScale;
+    [Range(0,50)]
+    public float scaleSpeed;
+
+
     public GameObject Camera;
+    public Animator anim;
 
-
-
-    private void Start()
-    {
-        canScale = true;
-    }
 
     private void Update()
     {
-        if (canScale) StartCoroutine(scaleDeelay());
-        IEnumerator scaleDeelay()
-        {
-            canScale = false;
-
-            gameObject.transform.localScale += new Vector3(1, 1, 1) * 100 * Time.deltaTime;
-            yield return new WaitForSeconds(5);
-
-            canScale = true;
-        }
+        //aumenta la scale del personaggio
+        gameObject.transform.localScale = transform.localScale + new Vector3(1, 1, 1) * scaleSpeed * Time.deltaTime;
     }
 
     public void Death()

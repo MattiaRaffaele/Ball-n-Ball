@@ -7,7 +7,7 @@ public class ballManager : MonoBehaviour
 
     public GameObject Player;
 
-    [Range(0, 10)]
+    [Range(0, 20)]
     public int durataSpawn;
 
 
