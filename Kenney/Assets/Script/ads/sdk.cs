@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.Advertisements;
 
-public class adInitializer : MonoBehaviour, IUnityAdsInitializationListener
+public class sdk : MonoBehaviour, IUnityAdsInitializationListener
 {
     [SerializeField] string _androidGameId;
-    [SerializeField] string _iOSGameId;
+    [SerializeField] string _iOsGameId;
     [SerializeField] bool _testMode = true;
+    [SerializeField] bool _enablePerPlacementMode = true;
     private string _gameId;
 
-    [SerializeField] InterstitialAD interstitialAD;
     void Awake()
     {
         InitializeAds();
@@ -17,15 +17,14 @@ public class adInitializer : MonoBehaviour, IUnityAdsInitializationListener
     public void InitializeAds()
     {
         _gameId = (Application.platform == RuntimePlatform.IPhonePlayer)
-            ? _iOSGameId
+            ? _iOsGameId
             : _androidGameId;
-        Advertisement.Initialize(_gameId, _testMode, this);
+        Advertisement.Initialize(_gameId, _enablePerPlacementMode, this);
     }
 
     public void OnInitializationComplete()
     {
         Debug.Log("Unity Ads initialization complete.");
-        interstitialAD.LoadAd();
     }
 
     public void OnInitializationFailed(UnityAdsInitializationError error, string message)

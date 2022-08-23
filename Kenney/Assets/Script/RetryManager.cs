@@ -5,9 +5,8 @@ using UnityEngine;
 public class RetryManager : MonoBehaviour
 {
     int adSpawn;
-    public GameObject adManager;
 
-    [SerializeField] InterstitialAD interstitialAD;
+    public Interstitial interstitial;
 
     public void Retry()
     {
@@ -16,7 +15,7 @@ public class RetryManager : MonoBehaviour
 
         if (adSpawn == 1)
         {
-            interstitialAD.ShowAd();
+            interstitial.ShowAd();
         }
     }
 }
