@@ -1,11 +1,12 @@
-using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class pauseManager : MonoBehaviour
 {
 
-    bool isPaused;
+    bool isPaused = false;
+
+    public Animator anim;
 
     [SerializeField] GameObject pausePanel;
 
@@ -13,26 +14,41 @@ public class pauseManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape) && !isPaused)
         {
-            pausePanel.SetActive(true);
             PauseBtn();
-            isPaused = true;
         }
 
         else if (Input.GetKeyDown(KeyCode.Escape) && isPaused)
         {
-            pausePanel.SetActive(false);
             ResumeBtn();
-            isPaused = false;
         }
     }
 
     public void PauseBtn()
     {
-        Time.timeScale = 0;
+        if (!isPaused)
+        {
+            pausePanel.SetActive(true);
+            Time.timeScale = 0;
+            isPaused = true;
+            anim.Play("resumeBtnAnimation");
+        }
+        else
+        {
+            pausePanel.SetActive(false);
+            Time.timeScale = 1;
+            isPaused = false;
+        }
     }
 
     public void ResumeBtn()
     {
+        pausePanel.SetActive(false);
         Time.timeScale = 1;
+        isPaused = false;
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
