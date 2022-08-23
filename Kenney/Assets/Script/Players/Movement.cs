@@ -7,28 +7,26 @@ public class Movement : MonoBehaviour
 
 
     public float moveSpeed = 5f;
-
-    public Rigidbody2D rb;
-
-    Vector2 movement;
-
-    //public Animator animator;
+    Rigidbody2D rb;
+    public JoyStick movementJoystick;
 
 
 
-    private void Update() {
-        
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
 
-/*
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
- */
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
     }
 
+
     private void FixedUpdate() {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.deltaTime);
+        if (movementJoystick.joystickVec.y != 0)
+        {
+            rb.velocity = new Vector2(movementJoystick.joystickVec.x * moveSpeed, movementJoystick.joystickVec.y * moveSpeed);
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
     }
 }
