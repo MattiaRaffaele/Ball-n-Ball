@@ -10,6 +10,7 @@ public class playerScript : MonoBehaviour
 
 
     public GameObject Camera;
+    public GameObject RetryPanel;
     public Animator anim;
 
 
@@ -21,13 +22,14 @@ public class playerScript : MonoBehaviour
 
     public void Death()
     {
-        Destroy(gameObject);
-        Camera.GetComponent<CameraZoom>().enabled = false;
+        Time.timeScale = 0;
+        gameObject.SetActive(false);
+        RetryPanel.SetActive(true);
     }
 
     public void ScaleDown()
     {
-        if (gameObject.transform.localScale.x >= 0)
+        if (gameObject.transform.localScale.x >= 0f)
         {
             gameObject.transform.localScale -= new Vector3(1, 1, 1) * 100 * Time.deltaTime;
         }

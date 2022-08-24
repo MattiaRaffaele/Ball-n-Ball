@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class RetryManager : MonoBehaviour
@@ -8,14 +7,30 @@ public class RetryManager : MonoBehaviour
 
     public Interstitial interstitial;
 
+    public GameObject Player;
+    public GameObject RetryPanel;
+
     public void Retry()
     {
-        adSpawn = Random.Range(1, 3);
+        adSpawn = Random.Range(1, 4);
         Debug.Log(adSpawn);
+
+        
 
         if (adSpawn == 1)
         {
             interstitial.ShowAd();
         }
+
+        //Inizializza il gioco
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1;
+    }
+
+    public void Respawn()
+    {
+        Player.SetActive(true);
+        RetryPanel.SetActive(false);
+        Time.timeScale = 1;
     }
 }
