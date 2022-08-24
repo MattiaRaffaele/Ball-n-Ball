@@ -15,6 +15,7 @@ public class ballManager : MonoBehaviour
     {
         StartCoroutine(Deadline());
     }
+
     IEnumerator Deadline(){
 
         yield return new WaitForSeconds(durataSpawn);
