@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 7692823037096406073}
-  durataSpawn: 15
+  durataSpawn: 14
 --- !u!58 &1453756884550748082
 CircleCollider2D:
   m_ObjectHideFlags: 0

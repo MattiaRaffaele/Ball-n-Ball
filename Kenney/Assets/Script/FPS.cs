@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FPS : MonoBehaviour
 {
-    void Update()
+    private void Start()
     {
-        Application.targetFrameRate = 180;
+        Application.targetFrameRate = 60;
     }
 }

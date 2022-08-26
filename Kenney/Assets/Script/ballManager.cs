@@ -5,10 +5,10 @@ using UnityEngine;
 public class ballManager : MonoBehaviour
 {
 
-    public GameObject Player;
+    [SerializeField] GameObject Player;
 
     [Range(0, 20)]
-    public int durataSpawn;
+    [SerializeField] int durataSpawn;
 
 
     private void Start()

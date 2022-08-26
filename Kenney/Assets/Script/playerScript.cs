@@ -9,30 +9,36 @@ public class playerScript : MonoBehaviour
     public float scaleSpeed;
 
 
-    public GameObject Camera;
+
+
     public GameObject RetryPanel;
-    public Animator anim;
+
 
 
     private void Update()
     {
+        if (gameObject.transform.localScale.x <= 0f)
+        {
+            Debug.Log("Scala annullata");
+            gameObject.transform.localScale = new Vector3(0, 0, 0);
+        }
+
+
         //aumenta la scale del personaggio
         gameObject.transform.localScale = transform.localScale + new Vector3(1, 1, 1) * scaleSpeed * Time.deltaTime;
     }
 
     public void Death()
     {
-        Time.timeScale = 0;
-        gameObject.SetActive(false);
+        Debug.Log("Death triggered");
         RetryPanel.SetActive(true);
+        gameObject.SetActive(false);
+        Time.timeScale = 0;
     }
 
     public void ScaleDown()
     {
-        if (gameObject.transform.localScale.x >= 0f)
-        {
-            gameObject.transform.localScale -= new Vector3(1, 1, 1) * 100 * Time.deltaTime;
-        }
+        gameObject.transform.localScale -= new Vector3(1, 1, 1);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

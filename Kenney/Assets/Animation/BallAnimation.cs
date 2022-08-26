@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class BallAnimation : MonoBehaviour
 {
-
-
-
     private void Update()
     {
         gameObject.transform.Rotate(0, 0, Random.Range(0f, 360f), Space.Self);
