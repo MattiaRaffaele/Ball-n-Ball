@@ -10,37 +10,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-Spanish (Spain) (es-ES)
+  m_Name: Localization-String-Tables-French (France) (fr-FR)
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-Spanish (Spain) (es-ES)
+  m_GroupName: Localization-String-Tables-French (France) (fr-FR)
   m_Data:
     m_SerializedData: []
-  m_GUID: 54d9fcd7dd0bd1a4fba990fa98b2641d
+  m_GUID: 3588c85489aa89043943095e4e920ee9
   m_SerializeEntries:
-  - m_GUID: 80d9f75b1d3a99e46a8d835bedcfbd9b
-    m_Address: LocalizationTable_es-ES
+  - m_GUID: 6c38cf31d2107d843987f4c144d9d3f4
+    m_Address: LocalizationTable_fr-FR
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-es-ES
+    - Locale-fr-FR
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: daeabfdddb95458488c24f3434a10315
-    m_Address: Menu_es-ES
+  - m_GUID: 4f3c609ddff0f534ba748a472dc1b300
+    m_Address: Menu_fr-FR
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-es-ES
+    - Locale-fr-FR
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 59918ab3f8c64e0438fd213fa8b7581f
-    m_Address: Crediti_es-ES
+  - m_GUID: 7fbf461a2abbb0343aaef88a5133aa03
+    m_Address: Crediti_fr-FR
     m_ReadOnly: 1
     m_SerializedLabels:
-    - Locale-es-ES
+    - Locale-fr-FR
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4ecae4cfede4704a9b95f6ed0d3ac05
+    m_Address: Settings_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 937b0375ebe18974589d5cae1f78762c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: a71d652675adbdc46beb85d851512a74, type: 2}
-    - {fileID: 11400000, guid: 9c9e977e956286b4f8f5a611d786a936, type: 2}
+    - {fileID: 11400000, guid: b67dc5698b6019a46a3272d442b7bab3, type: 2}
+    - {fileID: 11400000, guid: 0d861845e0e530e47a11cf5a9c7ebeb8, type: 2}

@@ -6,6 +6,7 @@ public class MenuManager : MonoBehaviour
     public void StartBtn()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }
     public void QuitBtn()
     {

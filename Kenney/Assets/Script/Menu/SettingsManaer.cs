@@ -5,43 +5,26 @@ using UnityEngine;
 public class SettingsManaer : MonoBehaviour
 {
 
-
-    public GameObject PostProcessing;
-
-    //PlayerPrefs
-    private int GS;
-    string GraphicSetting;
+    [SerializeField] private DebugScript debugScript;
+    bool debug = false;
 
 
-
-    private void Start()
+    public void DebugMode()
     {
-        PlayerPrefs.SetInt(GraphicSetting, GS);
-    }
-
-    private void Update()
-    {
-        Debug.Log(PlayerPrefs.GetInt(GraphicSetting));
-
-        if (GS == 1)
+        if (debug)
         {
-            PlayerPrefs.SetInt(GraphicSetting, 1);
-            PostProcessing.SetActive(true);
+            debug = false;
+            debugScript.DebugMode = false;
         }
-        
-        else if (GS == 0)
+        else if (!debug)
         {
-            PlayerPrefs.SetInt(GraphicSetting, 0);
-            PostProcessing.SetActive(false);
+            debug = true;
+            debugScript.DebugMode = true;
         }
     }
 
-    public void GraphicPerformance()
+    public void DeleteAllData()
     {
-        GS = 0;
-    }
-    public void GraphicGraphic()
-    {
-        GS = 1;
+        PlayerPrefs.DeleteAll();
     }
 }

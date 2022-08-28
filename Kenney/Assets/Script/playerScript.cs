@@ -9,9 +9,11 @@ public class playerScript : MonoBehaviour
     public float scaleSpeed;
 
 
-
+    ballSpawner ballSpawner;
 
     public GameObject RetryPanel;
+
+    private bool Arcade = true;
 
 
 
@@ -26,6 +28,16 @@ public class playerScript : MonoBehaviour
 
         //aumenta la scale del personaggio
         gameObject.transform.localScale = transform.localScale + new Vector3(1, 1, 1) * scaleSpeed * Time.deltaTime;
+
+        //Arcade
+        if (Arcade) StartCoroutine(ArcadeIE());
+        IEnumerator ArcadeIE()
+        {
+            Arcade = false;
+            yield return new WaitForSeconds(15);
+            Time.timeScale += 0.1f;
+            Arcade = true;
+        }
     }
 
     public void Death()
