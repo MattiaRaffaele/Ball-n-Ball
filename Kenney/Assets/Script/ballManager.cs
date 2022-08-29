@@ -8,7 +8,7 @@ public class ballManager : MonoBehaviour
     [SerializeField] GameObject Player;
 
     [Range(0, 20)]
-    [SerializeField] int durataSpawn;
+    [SerializeField] float durataSpawn;
 
 
     private void Start()

@@ -1,0 +1,7 @@
+Space
+Plane:38,15,38
+Player:242,208,189
+Enemy:242,98,65
+Allay:89,2,59
+-------------------
+Mountain
