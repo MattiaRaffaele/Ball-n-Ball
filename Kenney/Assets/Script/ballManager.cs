@@ -7,7 +7,6 @@ public class ballManager : MonoBehaviour
 
     [SerializeField] GameObject Player;
 
-    [Range(0, 20)]
     [SerializeField] float durataSpawn;
 
 

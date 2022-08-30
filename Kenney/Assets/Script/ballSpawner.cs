@@ -12,7 +12,6 @@ public class ballSpawner : MonoBehaviour {
     [Range(0, 20)]
     public float spawnPossibility;
 
-
     private void Update() 
     {
         if (canSpawn)
