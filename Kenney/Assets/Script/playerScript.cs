@@ -35,7 +35,7 @@ public class playerScript : MonoBehaviour
         {
             Arcade = false;
             yield return new WaitForSeconds(15);
-            Time.timeScale += 0.1f;
+            Time.timeScale += 0.2f;
             Arcade = true;
         }
     }

@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingsManaer : MonoBehaviour
+public class SettingsManager : MonoBehaviour
 {
 
     [SerializeField] private DebugScript debugScript;
     bool debug = false;
 
+    [SerializeField] private GameObject PostProcessing;
 
     public void DebugMode()
     {
@@ -26,5 +27,24 @@ public class SettingsManaer : MonoBehaviour
     public void DeleteAllData()
     {
         PlayerPrefs.DeleteAll();
+    }
+
+    public void GraphicPerformance()
+    {
+        PlayerPrefs.SetInt("GraphicSetting", 0);
+    }
+
+    public void GraphicGraphic()
+    {
+        PlayerPrefs.SetInt("GraphicSetting", 1);
+    }
+
+    public void ControllerON()
+    {
+        PlayerPrefs.SetInt("Controller", 1);
+    }
+    public void ControllerOFF()
+    {
+        PlayerPrefs.SetInt("Controller", 0);
     }
 }

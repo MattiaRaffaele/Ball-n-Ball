@@ -25,8 +25,6 @@ public class TimeManager : MonoBehaviour
         
         timeText.text = timerInt.ToString();
 
-        
-
 
         if (execute == true) StartCoroutine(deelay());
 

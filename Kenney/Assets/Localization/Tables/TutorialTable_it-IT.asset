@@ -10,40 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Menu_it-IT
+  m_Name: TutorialTable_it-IT
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: it-IT
-  m_SharedData: {fileID: 11400000, guid: c8d4866f7a933184f80d257486d2bdc0, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 220802d4802e1124c81ec122df871877, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 11362320384
-    m_Localized: GIOCA
+  - m_Id: 24041701376
+    m_Localized: Mangiali
     m_Metadata:
       m_Items: []
-  - m_Id: 93004447744
-    m_Localized: IMPOSTAZIONI
+  - m_Id: 273422434304
+    m_Localized: Non mangiarli
     m_Metadata:
       m_Items: []
-  - m_Id: 40915386368
-    m_Localized: CREDITI
-    m_Metadata:
-      m_Items: []
-  - m_Id: 142455291904
-    m_Localized: ESCI
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3315572097024
-    m_Localized: <INDIETRO
-    m_Metadata:
-      m_Items: []
-  - m_Id: 118240063733760
-    m_Localized: PUNTEGGIO MIGLIORE
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1937938388566016
-    m_Localized: Tutorial
+  - m_Id: 576951631872
+    m_Localized: Ora prova tu stesso
     m_Metadata:
       m_Items: []
   references:

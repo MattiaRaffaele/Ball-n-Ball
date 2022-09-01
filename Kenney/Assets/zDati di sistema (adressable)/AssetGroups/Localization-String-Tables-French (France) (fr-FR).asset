@@ -45,6 +45,13 @@ MonoBehaviour:
     - Locale-fr-FR
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0d13d0c5c570c940ae3d5520665c097
+    m_Address: TutorialTable_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 937b0375ebe18974589d5cae1f78762c, type: 2}
   m_SchemaSet:

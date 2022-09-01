@@ -10,40 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Menu_es-ES
+  m_Name: TutorialTable_es-ES
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: es-ES
-  m_SharedData: {fileID: 11400000, guid: c8d4866f7a933184f80d257486d2bdc0, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 220802d4802e1124c81ec122df871877, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 11362320384
-    m_Localized: JUGAR
+  - m_Id: 24041701376
+    m_Localized: Comerlos
     m_Metadata:
       m_Items: []
-  - m_Id: 40915386368
-    m_Localized: "CR\xC9DITOS"
+  - m_Id: 273422434304
+    m_Localized: No los comas
     m_Metadata:
       m_Items: []
-  - m_Id: 93004447744
-    m_Localized: AJUSTES
-    m_Metadata:
-      m_Items: []
-  - m_Id: 142455291904
-    m_Localized: SALIR
-    m_Metadata:
-      m_Items: []
-  - m_Id: 3315572097024
-    m_Localized: <REGRESA
-    m_Metadata:
-      m_Items: []
-  - m_Id: 118240063733760
-    m_Localized: "MEJOR PUNTUACI\xD3N"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 1937938388566016
-    m_Localized: Tutorial
+  - m_Id: 576951631872
+    m_Localized: "Ahora pru\xE9balo t\xFA mismo"
     m_Metadata:
       m_Items: []
   references:

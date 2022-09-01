@@ -39,6 +39,14 @@ MonoBehaviour:
     m_Key: HighScoreText
     m_Metadata:
       m_Items: []
+  - m_Id: 1937938388566016
+    m_Key: TutorialText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1937968600137728
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
