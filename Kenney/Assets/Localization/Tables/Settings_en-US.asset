@@ -34,6 +34,18 @@ MonoBehaviour:
     m_Localized: DEBUG MODE
     m_Metadata:
       m_Items: []
+  - m_Id: 1927458584477696
+    m_Localized: Joystick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1927623429013504
+    m_Localized: ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1927641753927680
+    m_Localized: OFF
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

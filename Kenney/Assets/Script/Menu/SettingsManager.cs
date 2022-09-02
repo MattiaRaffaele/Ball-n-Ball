@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SettingsManager : MonoBehaviour
@@ -9,6 +7,8 @@ public class SettingsManager : MonoBehaviour
     bool debug = false;
 
     [SerializeField] private GameObject PostProcessing;
+
+
 
     public void DebugMode()
     {
@@ -38,6 +38,7 @@ public class SettingsManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("GraphicSetting", 1);
     }
+
 
     public void ControllerON()
     {
