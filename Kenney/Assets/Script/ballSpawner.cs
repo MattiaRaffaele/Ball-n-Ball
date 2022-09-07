@@ -9,7 +9,7 @@ public class ballSpawner : MonoBehaviour {
 
     public GameObject Ball;
 
-    [Range(0, 20)]
+    [Range(0, 50)]
     public float spawnPossibility;
 
     private void Update() 

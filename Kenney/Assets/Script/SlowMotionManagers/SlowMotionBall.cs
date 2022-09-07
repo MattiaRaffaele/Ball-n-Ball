@@ -1,11 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Rendering.PostProcessing;
 using UnityEngine;
 
 public class SlowMotionBall : MonoBehaviour
 {
-    [SerializeField] GameObject Spawner;
     [SerializeField] int SlowMoDuration;
+    SlowMoManager slowMoManager;
+    private bool canSloMo = true;
 
 
     //slowmotion
@@ -35,7 +36,7 @@ public class SlowMotionBall : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && canSloMo)
         {
             StartCoroutine(SlowMotion());
 
@@ -43,13 +44,16 @@ public class SlowMotionBall : MonoBehaviour
 
             IEnumerator SlowMotion()
             {
-                Spawner.SetActive(false);
+                canSloMo = false;
                 StartSlowMotion();
+                slowMoManager.PostProcessingOn();
 
                 yield return new WaitForSeconds(SlowMoDuration);
 
+                slowMoManager.PostProcessingOff();
                 StopSlowMotion();
-                Spawner.SetActive(true);
+
+                canSloMo = true;
             }
         }
     }

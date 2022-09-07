@@ -43,15 +43,11 @@ public class TimeManager : MonoBehaviour
     }
 
     void CheckHighScore()
-    {
-        //PlayerPrefs
-        Debug.Log(PlayerPrefs.GetInt("HighScore")); //DA ELIMINARE
-        
+    {        
         if (timerInt > PlayerPrefs.GetInt("HighScore"))
         {
             Debug.Log("High score!");
             PlayerPrefs.SetInt("HighScore", timerInt);
         }
-
     }
 }
