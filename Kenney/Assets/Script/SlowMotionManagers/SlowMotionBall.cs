@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class SlowMotionBall : MonoBehaviour
 {
-    [SerializeField] int SlowMoDuration;
-    SlowMoManager slowMoManager;
+    [SerializeField] float SlowMoDuration;
     private bool canSloMo = true;
+
+    [SerializeField] Animator animSlowMo;
+
+    
 
 
     //slowmotion
@@ -34,6 +37,11 @@ public class SlowMotionBall : MonoBehaviour
         Time.fixedDeltaTime = startFixedDeltaTime;
     }
 
+    private void SlowMotionBallID()
+    {
+        Debug.Log(Time.timeScale);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player" && canSloMo)
@@ -45,15 +53,25 @@ public class SlowMotionBall : MonoBehaviour
             IEnumerator SlowMotion()
             {
                 canSloMo = false;
+
+
+                animSlowMo.Play("SlowMoTook");
+
+                GameObject[] SlowMoBall = GameObject.FindGameObjectsWithTag("SlowMoBall");
+                for (int i = 0; i < SlowMoBall.Length; i++)
+                Destroy(SlowMoBall[i]);
+
                 StartSlowMotion();
-                slowMoManager.PostProcessingOn();
+
 
                 yield return new WaitForSeconds(SlowMoDuration);
 
-                slowMoManager.PostProcessingOff();
+
                 StopSlowMotion();
 
                 canSloMo = true;
+                
+                Destroy(gameObject);
             }
         }
     }

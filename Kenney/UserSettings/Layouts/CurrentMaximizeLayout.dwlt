@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 62
+  controlID: 139
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -53,8 +53,10 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\raffa\Documents\GitHub\Kenney\Kenney\Kenney\Library\PlayModeViewStates\c0045ff9df84cba4a89fdedb8c2a4cf2
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -91,7 +93,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -148,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 63
+  controlID: 65
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 64
+  controlID: 66
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,9 +234,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 10190000
       m_LastClickedID: 0
-      m_ExpandedIDs: dafaffff
+      m_ExpandedIDs: dafaffff567a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -576,9 +578,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 89.872314, y: 56.590443, z: -1.7978925}
+    m_Target: {x: -4.044025, y: 27.065012, z: -1.2110313}
     speed: 2
-    m_Value: {x: 89.872314, y: 56.590443, z: -1.7978925}
+    m_Value: {x: -4.044025, y: 27.065012, z: -1.2110313}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -628,9 +630,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 258.2254
+    m_Target: 45.21719
     speed: 2
-    m_Value: 258.2254
+    m_Value: 45.21719
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -686,15 +688,49 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 7088198318147989137, guid: e0faf353a94c75746a78dd9e92d095ce, type: 2}
+    - {fileID: 5359863598842161470, guid: cad48c29e2960c5468ea5e193bb7db51, type: 2}
+    - {fileID: -3863608187280685153, guid: 806de707df2cf3f4a841f7425d9186a5, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.52368987
+    - e00: 1.0099128
       e01: 0
       e02: 0
-      e03: -51.90564
+      e03: -161.39261
       e10: 0
-      e11: 0.52368987
+      e11: 1.0099128
       e12: 0
-      e13: 248.51665
+      e13: 146.10965
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.50210524
+      e01: 0
+      e02: 0
+      e03: -10.105255
+      e10: 0
+      e11: 0.50210524
+      e12: 0
+      e13: 181.82106
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.8781851
+      e01: 0
+      e02: 0
+      e03: 1.1424279
+      e10: 0
+      e11: 0.8781851
+      e12: 0
+      e13: 156.74274
       e20: 0
       e21: 0
       e22: 1
@@ -738,8 +774,8 @@ MonoBehaviour:
     y: 0
     width: 443
     height: 509
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -755,7 +791,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -764,15 +800,15 @@ MonoBehaviour:
     y: 509
     width: 1465
     height: 438
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -814,22 +850,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab
+    - Assets/Script/SlowMotionManagers
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab
+  - Assets/Script/SlowMotionManagers
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\raffa\Documents\GitHub\Kenney\Kenney\Kenney
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 3}
-    m_SelectedIDs: 867d0000
-    m_LastClickedID: 32134
-    m_ExpandedIDs: 00000000467d0000487d00004a7d00004c7d00004e7d0000507d0000527d0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a67d0000
+    m_LastClickedID: 32166
+    m_ExpandedIDs: 000000005a7d00005c7d00005e7d0000607d0000627d0000647d0000667d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -857,7 +893,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000467d0000487d00004a7d00004c7d00004e7d0000507d0000527d0000
+    m_ExpandedIDs: 000000005a7d00005c7d00005e7d0000607d0000627d0000647d0000667d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -882,8 +918,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 10190000
+    m_LastClickedInstanceID: 6416
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -971,7 +1007,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 32200
+  m_LastSelectedObjectID: 30996
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -991,8 +1027,8 @@ MonoBehaviour:
     y: 0
     width: 455
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
