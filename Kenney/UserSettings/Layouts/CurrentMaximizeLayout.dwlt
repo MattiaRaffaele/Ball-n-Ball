@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 139
+  controlID: 8229
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -56,7 +56,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - C:\Users\raffa\Documents\GitHub\Kenney\Kenney\Kenney\Library\PlayModeViewStates\c0045ff9df84cba4a89fdedb8c2a4cf2
+  - C:\Users\raffa\Documents\GitHub\Kenney\Kenney\Kenney\Library\PlayModeViewStates\860fc2e299085874798351399f1dc34c
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 65
+  controlID: 8230
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 66
+  controlID: 8231
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,8 +196,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 509
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -233,24 +233,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 10190000
+      scrollPos: {x: 0, y: 45}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: dafaffff567a0000
+      m_ExpandedIDs: c8ecfdff70edfdffd4f2fdff58f3fdff8ef3fdff42f4fdffd4faffff2279000098790000247a00006a7a0000b2dc00003ade0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Pause
+        m_OriginalName: Pause
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 56840
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -578,9 +578,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.044025, y: 27.065012, z: -1.2110313}
+    m_Target: {x: 566.17285, y: 1751.1648, z: -6.081986}
     speed: 2
-    m_Value: {x: -4.044025, y: 27.065012, z: -1.2110313}
+    m_Value: {x: 566.17285, y: 1751.1648, z: -6.081986}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -630,9 +630,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 45.21719
+    m_Target: 707.86975
     speed: 2
-    m_Value: 45.21719
+    m_Value: 707.86975
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -690,6 +690,7 @@ MonoBehaviour:
     - {fileID: 7088198318147989137, guid: e0faf353a94c75746a78dd9e92d095ce, type: 2}
     - {fileID: 5359863598842161470, guid: cad48c29e2960c5468ea5e193bb7db51, type: 2}
     - {fileID: -3863608187280685153, guid: 806de707df2cf3f4a841f7425d9186a5, type: 2}
+    - {fileID: -1178796772264796397, guid: e1b2f40711ecabf4fb3882224eb6795b, type: 2}
     m_ValueSerializationHelper:
     - e00: 1.0099128
       e01: 0
@@ -739,10 +740,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: e0faf353a94c75746a78dd9e92d095ce, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: e1b2f40711ecabf4fb3882224eb6795b, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 7088198318147989137, guid: e0faf353a94c75746a78dd9e92d095ce, type: 2}
+  - m_Target: {fileID: -1178796772264796397, guid: e1b2f40711ecabf4fb3882224eb6795b, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -850,22 +867,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/SlowMotionManagers
+    - Assets/Prefab
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/SlowMotionManagers
+  - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\raffa\Documents\GitHub\Kenney\Kenney\Kenney
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a67d0000
-    m_LastClickedID: 32166
-    m_ExpandedIDs: 000000005a7d00005c7d00005e7d0000607d0000627d0000647d0000667d0000
+    scrollPos: {x: 0, y: 119}
+    m_SelectedIDs: 927d0000
+    m_LastClickedID: 32146
+    m_ExpandedIDs: 00000000587d00005a7d00005c7d00005e7d0000607d0000627d0000647d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -893,7 +910,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a7d00005c7d00005e7d0000607d0000627d0000647d0000667d0000
+    m_ExpandedIDs: 00000000587d00005a7d00005c7d00005e7d0000607d0000627d0000647d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -918,9 +935,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 10190000
-    m_LastClickedInstanceID: 6416
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1007,7 +1024,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 30996
+  m_LastSelectedObjectID: 56434
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1027,8 +1044,8 @@ MonoBehaviour:
     y: 0
     width: 455
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}

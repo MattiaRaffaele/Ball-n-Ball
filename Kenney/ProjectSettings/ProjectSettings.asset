@@ -139,7 +139,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 2.1.0
+  bundleVersion: 1.2.0
   preloadedAssets:
   - {fileID: 11400000, guid: 05aa5f68fdd164e47b5518dd6d086ca0, type: 2}
   metroInputSource: 0
@@ -167,7 +167,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 5
+  AndroidBundleVersionCode: 6
   AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -272,7 +272,7 @@ PlayerSettings:
   androidGamepadSupportLevel: 0
   chromeosInputEmulation: 1
   AndroidMinifyWithR8: 0
-  AndroidMinifyRelease: 0
+  AndroidMinifyRelease: 1
   AndroidMinifyDebug: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
@@ -704,7 +704,7 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
-    Android: 0
+    Android: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel: {}

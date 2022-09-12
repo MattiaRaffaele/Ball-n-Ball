@@ -59,7 +59,7 @@ public class SlowMotionBall : MonoBehaviour
 
                 GameObject[] SlowMoBall = GameObject.FindGameObjectsWithTag("SlowMoBall");
                 for (int i = 0; i < SlowMoBall.Length; i++)
-                Destroy(SlowMoBall[i]);
+                    Destroy(SlowMoBall[i]);
 
                 StartSlowMotion();
 
