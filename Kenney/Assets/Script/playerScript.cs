@@ -8,9 +8,8 @@ public class playerScript : MonoBehaviour
     [Range(0,50)]
     public float scaleSpeed;
 
-
     ballSpawner ballSpawner;
-
+    
     public GameObject RetryPanel;
 
     private bool Arcade = true;
@@ -46,6 +45,7 @@ public class playerScript : MonoBehaviour
         RetryPanel.SetActive(true);
         gameObject.SetActive(false);
         Time.timeScale = 0;
+        
     }
 
     public void ScaleDown()
