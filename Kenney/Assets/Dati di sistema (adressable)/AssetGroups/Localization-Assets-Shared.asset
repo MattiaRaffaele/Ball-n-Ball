@@ -16,32 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 891e5aae153a7c64882327164142f396
-  m_SerializeEntries:
-  - m_GUID: a67773552d33c4b47834c59364594fe2
-    m_Address: Assets/Localization/Tables/LocalizationTable Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c8d4866f7a933184f80d257486d2bdc0
-    m_Address: Assets/Localization/Tables/Menu Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 35f94fb34f0152c41865cda25dbbb3ec
-    m_Address: Assets/Localization/Tables/Crediti Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c335d148a34518a4fbcbb3286e8546d6
-    m_Address: Assets/Localization/Tables/Settings Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 220802d4802e1124c81ec122df871877
-    m_Address: Assets/Localization/Tables/TutorialTable Shared Data.asset
-    m_ReadOnly: 1
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 937b0375ebe18974589d5cae1f78762c, type: 2}
   m_SchemaSet:

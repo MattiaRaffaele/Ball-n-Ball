@@ -16,42 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 3588c85489aa89043943095e4e920ee9
-  m_SerializeEntries:
-  - m_GUID: 6c38cf31d2107d843987f4c144d9d3f4
-    m_Address: LocalizationTable_fr-FR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr-FR
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4f3c609ddff0f534ba748a472dc1b300
-    m_Address: Menu_fr-FR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr-FR
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7fbf461a2abbb0343aaef88a5133aa03
-    m_Address: Crediti_fr-FR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr-FR
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e4ecae4cfede4704a9b95f6ed0d3ac05
-    m_Address: Settings_fr-FR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr-FR
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c0d13d0c5c570c940ae3d5520665c097
-    m_Address: TutorialTable_fr-FR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-fr-FR
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 937b0375ebe18974589d5cae1f78762c, type: 2}
   m_SchemaSet:
