@@ -25,7 +25,6 @@ public class JoyStick : MonoBehaviour
         joystickTouchPos = Input.mousePosition;
     }
 
-
     public void Drag(BaseEventData baseEventData)
     {
         PointerEventData pointerEventData = baseEventData as PointerEventData;
@@ -44,6 +43,7 @@ public class JoyStick : MonoBehaviour
             joystick.transform.position = joystickTouchPos + joystickVec * joystickRadius;
         }
     }
+
 
     public void PointerUp()
     {

@@ -5,25 +5,25 @@ public class RetryManager : MonoBehaviour
 {
     int adSpawn;
 
-    public Interstitial interstitial;
+    //public Interstitial interstitial;
 
     public GameObject Player;
     public GameObject RetryPanel;
 
     public void Retry()
     {
-        adSpawn = Random.Range(1, 4);
-        Debug.Log(adSpawn);
+        //adSpawn = Random.Range(1, 4);
+        //Debug.Log(adSpawn);
 
-        
 
-        if (adSpawn == 1)
-        {
-            interstitial.ShowAd();
-        }
+
+        //if (adSpawn == 1)
+        //{
+        //    interstitial.ShowAd();
+        //}
 
         //Inizializza il gioco
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }
 

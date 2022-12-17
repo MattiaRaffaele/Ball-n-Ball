@@ -12,6 +12,8 @@ public class playerScript : MonoBehaviour
     
     public GameObject RetryPanel;
 
+    public GameObject JoyStick;
+
     private bool Arcade = true;
 
 
@@ -42,6 +44,7 @@ public class playerScript : MonoBehaviour
     public void Death()
     {
         Debug.Log("Death triggered");
+        JoyStick.SetActive(false);
         RetryPanel.SetActive(true);
         gameObject.SetActive(false);
         Time.timeScale = 0;
