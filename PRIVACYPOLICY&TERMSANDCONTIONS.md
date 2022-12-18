@@ -18,7 +18,8 @@ I want to inform you that whenever you use my Service, in a case of an error in 
 These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I won't delete this from our servers.
 
 ## IMPORTANT
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.
+Also, you are invited to review this page everytime this app receives an update, remember that you can see the last time that this document has been modified below
 
 **The data collected CAN'T be deleted**
 
@@ -28,3 +29,7 @@ This policy is effective as of 2022-09-07
 
 ### Contact Us
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at commattia22@gmail.com.
+
+
+
+12-18-2022
