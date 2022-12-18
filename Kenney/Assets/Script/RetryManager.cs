@@ -23,7 +23,7 @@ public class RetryManager : MonoBehaviour
         //}
 
         //Inizializza il gioco
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         Time.timeScale = 1;
     }
 
