@@ -21,7 +21,7 @@ These Services do not address anyone under the age of 13. I do not knowingly col
 I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.
 Also, you are invited to review this page everytime this app receives an update, remember that you can see the last time that this document has been modified below
 
-**The data collected CAN'T be deleted**
+**If I or third party services such as Unity Ads collect any type of your personal data mentioned in this document CAN'T be deleted**
 
 
 
