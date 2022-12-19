@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
@@ -4005,7 +4005,7 @@ MonoBehaviour:
   - {x: 0.40095717, y: -0.36234224, z: 0}
   m_ShapePathHash: 1370639504
   m_Mesh: {fileID: 970776230}
-  m_InstanceId: 54164
+  m_InstanceId: 58542
 --- !u!1 &1290736865
 GameObject:
   m_ObjectHideFlags: 0
