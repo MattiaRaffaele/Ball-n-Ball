@@ -1,6 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Profiling;
 using UnityEngine;
+using Unity.VisualScripting;
 
 public class ballManager : MonoBehaviour
 {
@@ -12,13 +13,16 @@ public class ballManager : MonoBehaviour
 
     private void Start()
     {
+        Profiler.BeginSample("ballManager");
         StartCoroutine(Deadline());
     }
+
 
     IEnumerator Deadline(){
 
         yield return new WaitForSeconds(durataSpawn);
         Destroy(gameObject);
+        Profiler.EndSample();
     }
 
     private void OnTriggerEnter(Collider other)
