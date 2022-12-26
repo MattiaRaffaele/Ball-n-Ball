@@ -1,15 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class playerScript : MonoBehaviour
 {
 
-    [Range(0,50)]
+    [Range(0, 50)]
     public float scaleSpeed;
 
     ballSpawner ballSpawner;
-    
+
     public GameObject RetryPanel;
 
     public GameObject JoyStick;
@@ -48,7 +47,7 @@ public class playerScript : MonoBehaviour
         RetryPanel.SetActive(true);
         gameObject.SetActive(false);
         Time.timeScale = 0;
-        
+
     }
 
     public void ScaleDown()

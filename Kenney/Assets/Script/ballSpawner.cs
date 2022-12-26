@@ -21,7 +21,7 @@ public class ballSpawner : MonoBehaviour
             canSpawn = false;
 
             //Cambio di posizione del ballSpawner(gameObject)
-            gameObject.transform.position = new Vector2(Random.Range(-25, 25), Random.Range(-25, 25));
+            gameObject.transform.position = new Vector2(Random.Range(-16, 29), Random.Range(16, -29));
 
             Instantiate(Ball, gameObject.transform.position, Quaternion.identity);
 
