@@ -6,6 +6,11 @@ public class BallDestroyer : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Destroy();
+    }
+
+    public void Destroy()
+    {
         Destroy(gameObject);
     }
 }
