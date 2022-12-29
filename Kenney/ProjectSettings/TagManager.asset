@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - BadGuy
   - GoodGuy
   - PP
+  - Enemy
   layers:
   - Default
   - TransparentFX

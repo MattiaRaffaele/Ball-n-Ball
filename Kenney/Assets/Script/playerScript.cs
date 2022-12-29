@@ -40,6 +40,24 @@ public class playerScript : MonoBehaviour
         }
     }
 
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Death();
+        }
+        else if (collision.gameObject.tag == "GoodGuy")
+        {
+            ScaleDown();
+        }
+        else if (collision.gameObject.tag == "Shield")
+        {
+            Shield();
+        }
+    }
+
+
     public void Death()
     {
         Debug.Log("Death triggered");
@@ -55,15 +73,8 @@ public class playerScript : MonoBehaviour
         gameObject.transform.localScale -= new Vector3(1, 1, 1);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Shield()
     {
-        if (collision.gameObject.tag == "BadGuy")
-        {
-            Death();
-        }
-        else if (collision.gameObject.tag == "GoodGuy")
-        {
-            ScaleDown();
-        }
+        
     }
 }

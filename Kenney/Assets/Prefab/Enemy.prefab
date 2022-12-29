@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8476711178072543848}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: BadGuy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 716375546041685604}
   m_Layer: 0
   m_Name: EnemyGroup
-  m_TagString: BadGuy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

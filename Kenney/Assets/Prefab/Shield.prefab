@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6161448087883107644}
   - component: {fileID: 7026923433705470341}
+  - component: {fileID: 2904474799462632153}
   m_Layer: 0
   m_Name: ShieldLeft
   m_TagString: Untagged
@@ -84,6 +85,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &2904474799462632153
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972597125900428729}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.19024822, y: -0.4890927}
+  - {x: -0.1569171, y: -0.1459623}
+  - {x: -0.19329822, y: 0.3228206}
+  - {x: 0.20807779, y: 0.4855992}
+  - {x: 0.1940389, y: -0.47861212}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &6029779238553481750
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,6 +153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480626503052177694}
   - component: {fileID: 4264735735990106256}
+  - component: {fileID: 8763676417203273399}
   m_Layer: 0
   m_Name: ShieldRight
   m_TagString: Untagged
@@ -143,7 +170,7 @@ Transform:
   m_GameObject: {fileID: 8719300671642804036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.25, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3600782969925442033}
@@ -192,7 +219,7 @@ SpriteRenderer:
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 3b1d38fc4b37ce344b7a1368d8171051, type: 3}
   m_Color: {r: 0.32941177, g: 0.827451, b: 0.9098039, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.05, y: 0.09}
@@ -201,3 +228,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &8763676417203273399
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8719300671642804036}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.19024822, y: -0.4890927}
+  - {x: -0.1569171, y: -0.1459623}
+  - {x: -0.19329822, y: 0.3228206}
+  - {x: 0.20807779, y: 0.4855992}
+  - {x: 0.1940389, y: -0.47861212}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
