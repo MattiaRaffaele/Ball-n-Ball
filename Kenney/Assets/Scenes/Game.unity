@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &519420034
@@ -1343,6 +1343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ball: {fileID: 3199755039258253651, guid: 79d9f86c2b4ffdf48959bb0594a20185, type: 3}
   spawnPossibility: 2
+  spawnDeelayInSeconds: 0
 --- !u!4 &549300152
 Transform:
   m_ObjectHideFlags: 0
@@ -2232,6 +2233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ball: {fileID: 6029779238553481750, guid: 321cf90e152d24242b4f87694a49b825, type: 3}
   spawnPossibility: 10
+  spawnDeelayInSeconds: 10
 --- !u!4 &998335399
 Transform:
   m_ObjectHideFlags: 0
@@ -3971,6 +3973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ball: {fileID: 6284178896664303665, guid: 7fc7de8890d8a7445b09d5df9f5aaa75, type: 3}
   spawnPossibility: 2.5
+  spawnDeelayInSeconds: 0
 --- !u!4 &1777763943
 Transform:
   m_ObjectHideFlags: 0
@@ -4697,11 +4700,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3600782969925442033, guid: 321cf90e152d24242b4f87694a49b825, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3600782969925442033, guid: 321cf90e152d24242b4f87694a49b825, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.57
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3600782969925442033, guid: 321cf90e152d24242b4f87694a49b825, type: 3}
       propertyPath: m_LocalPosition.z

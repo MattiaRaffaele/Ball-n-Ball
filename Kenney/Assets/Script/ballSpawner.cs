@@ -6,14 +6,25 @@ public class ballSpawner : MonoBehaviour
 
 
 
-    bool canSpawn = true;
+    private bool canSpawn;
 
+    [Header("Asset to load")]
     public GameObject Ball;
 
+    [Header("Spawn frequency")]
     [Range(0, 50)]
     public float spawnPossibility;
 
+    [Header("Spawn deelay")]
+    public int spawnDeelayInSeconds;
 
+
+
+    private void Awake()
+    {
+        canSpawn = false;
+        StartCoroutine(spawnDeelay());
+    }
     private void Update()
     {
         if (canSpawn)
@@ -35,5 +46,11 @@ public class ballSpawner : MonoBehaviour
                 canSpawn = true;
             }
         }
+    }
+
+    IEnumerator spawnDeelay()
+    {
+        yield return new WaitForSeconds(spawnDeelayInSeconds);
+        canSpawn = true;
     }
 }
