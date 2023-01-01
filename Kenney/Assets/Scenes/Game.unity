@@ -2199,7 +2199,8 @@ PrefabInstance:
       propertyPath: m_Vertices.Array.data[8].position.y
       value: -0.56
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8476711178072543848, guid: 79d9f86c2b4ffdf48959bb0594a20185, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 79d9f86c2b4ffdf48959bb0594a20185, type: 3}
 --- !u!1 &998335397
