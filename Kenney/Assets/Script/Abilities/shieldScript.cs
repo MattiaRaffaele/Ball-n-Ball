@@ -8,12 +8,18 @@ public class shieldScript : MonoBehaviour
     [Header("Animator triggers")]
     [SerializeField] string endTrigger;
 
+    private bool canExecute;
+
+    private void Awake()
+    {
+        canExecute = true;
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Shield")
+        if (other.gameObject.tag == "Shield" && canExecute)
         {
-            Debug.Log("tumadre");
+            canExecute = false;
             enemyGroupAnimator.SetTrigger(endTrigger);
         }
     }
