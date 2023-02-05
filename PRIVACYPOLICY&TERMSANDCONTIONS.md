@@ -8,8 +8,10 @@ If you choose to use my Service, then you agree to the collection and use of inf
 The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Ball 'n Ball unless otherwise defined in this Privacy Policy.
 
 ### Information Collection and Use
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to user’s approximate location, user’s personal identifiers, user’s purchase history, data on page views and taps in the app, data on any other app activity, app diagnostics, user’s device or other identifiers. The information that I request will be retained on your device and is not collected by me in any way.
-The app doesnt use third-party services that may collect information used to identify you.
+For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+
+The app does use third-party services that may collect information used to identify you.
+
 Link to the privacy policy of third-party service providers used by the app
 * [Google play services](https://policies.google.com/privacy)
 * [Unity](https://unity.com/legal/privacy-policy)
@@ -18,17 +20,14 @@ Link to the privacy policy of third-party service providers used by the app
 I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
 
 ### Children’s Privacy
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I won't delete this from our servers.
+These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I will delete this from our servers.
 
 ## IMPORTANT
 I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.
 Also, you are invited to review this page everytime this app receives an update, remember that you can see the last time that this document has been modified below
 
-**If I or third party services such as Unity Ads collect any type of your personal data mentioned in this document CAN'T be deleted**
 
-
-
-This policy is effective as of 2022-09-07
+This policy is effective as of 2023-02-04
 
 ### Contact Us
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at commattia22@gmail.com.
