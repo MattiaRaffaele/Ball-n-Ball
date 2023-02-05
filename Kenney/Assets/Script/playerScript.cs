@@ -75,6 +75,6 @@ public class playerScript : MonoBehaviour
 
     public void Shield()
     {
-        
+        SendMessage("Z");
     }
 }
