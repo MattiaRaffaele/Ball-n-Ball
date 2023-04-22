@@ -20,17 +20,17 @@ public class GameLoader : MonoBehaviour
 
     private void Start()
     {
-        StartGameVoid(sceneIndex);
+        StartGameVoid();
     }
 
-    public void StartGameVoid(int sceneIndex)
+    public void StartGameVoid()
     {
-        StartCoroutine(StartGame(sceneIndex));
+        StartCoroutine(StartGame());
     }
 
-    public IEnumerator StartGame(int sceneIndex)
+    public IEnumerator StartGame()
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(2);
 
         while (!operation.isDone)
         {

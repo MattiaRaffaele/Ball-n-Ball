@@ -1,5 +1,7 @@
 using UnityEngine;
 
+//script made for enemy to manage the collision with the shield
+
 public class shieldScript : MonoBehaviour
 {
     [Header("Animator")]

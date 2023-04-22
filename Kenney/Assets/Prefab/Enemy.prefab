@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3001418470863645755}
   - component: {fileID: 3647060634135289965}
   - component: {fileID: 8476711178072543848}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7918543876344938494}
   - component: {fileID: 496486112148328258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Advertiser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2307365479601210229}
   - component: {fileID: 734061623113128725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemySpikes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 681535665337939761}
   - component: {fileID: 7099000948450355893}
   - component: {fileID: 5610687201491397721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemyGroup
   m_TagString: Enemy
   m_Icon: {fileID: 0}
